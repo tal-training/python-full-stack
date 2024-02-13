@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Admin</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="products">
+        <div class="header">Products List</div>
+        {% for product in products %}
+        <div class="product">
+            <div class="name">{{ product.name }}</div>
+            <div class="price">{{ product.price }}</div>
+            <div class="company">{{ product.company.name }}</div>
+            <div class="type">{{ product.company.type }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

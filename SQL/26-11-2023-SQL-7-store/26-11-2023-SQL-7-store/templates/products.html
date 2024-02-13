@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Admin</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="header" class="header">My Shop</div>
+    <div class="cart"></div>
+    <div class="products">
+        {% for product in products %}
+        <div class="product">
+            <img src="/static/{{ product.image }}" alt=""/>
+            <div class="company"><a href="/companies/{{ product.company.name }}">{{ product.company.name }}</a></div>
+            <div class="name">{{ product.name }}</div>
+            <div class="price">{{ product.price }}</div>
+            <div class="buy"><a href="/cart/buy?id={{ product.pid }}">Buy!</a></div>
+        </div>
+        {% endfor %}
+    </div>
+   
+</body>
+</html>

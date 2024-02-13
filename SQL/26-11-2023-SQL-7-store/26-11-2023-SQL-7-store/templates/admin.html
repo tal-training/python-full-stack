@@ -1,0 +1,10 @@
+<div class="add">
+    <form action="/add" method="POST">
+        <input type="text" name="name" placeholder="Product Name">
+        <select name="company" id="">
+            {% for company in companies %}
+                <option value="{{ company }}">{{ company }}</option>
+            {% endfor %}
+        </select>
+    </form>
+</div>

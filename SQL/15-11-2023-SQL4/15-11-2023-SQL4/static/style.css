@@ -1,0 +1,26 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+    gap: 5px;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

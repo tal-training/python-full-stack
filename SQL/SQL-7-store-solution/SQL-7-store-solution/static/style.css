@@ -1,0 +1,96 @@
+.header {
+    box-shadow: 0px 0px 10px 0px black;
+    height: 10vh;
+    margin: 15px;
+    background-color: aquamarine;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.cart {
+    box-shadow: 0px 0px 10px 0px blue;
+    width: 200px;
+    height: fit-content;
+    position: absolute;
+    top: 15vh;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.cart .product {
+    background-color: white;
+}
+
+.total {
+    background-color: green;
+    color: white;
+    font-size: xx-large;
+}
+
+.total::before{
+    content: "Total: ";
+}
+
+.total::after{
+    content: "$";
+}
+
+
+.buy {
+    background-color: red;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.buy a {
+    color: white;
+}
+
+.products{
+    display: flex;
+    gap: 15px;
+    width: 60%;
+    margin-left: 15px;
+}
+
+.product {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.company {
+    font-size: 32px;
+}
+
+.company a {
+    color: black;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.price::after{
+    content: "$";
+}
+
+.product img {
+    width: 100px;
+}

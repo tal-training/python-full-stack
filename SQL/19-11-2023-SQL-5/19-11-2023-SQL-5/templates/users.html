@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Admin</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="users">
+        <div class="header">Users List</div>
+        {% for user in users %}
+        <div class="user">
+            <div class="username">{{ user.username }}</div>
+            <a href="/delete?id={{ user.uid }}">Delete</a>
+            <a href="/update?id={{ user.uid }}&username={{ user.username }}">Update</a>
+            <a href="/reset_user?id={{ user.uid }}&username={{ user.username }}">Reset Password</a>
+        </div>
+        {% endfor %}
+        <div class="add_user">
+            <form action="/add" method="POST">
+                <input type="text" name="username" placeholder="Enter New Username">
+                <input type="password" name="password" placeholder="Enter Password">
+                <input type="submit" value="Add User">
+            </form>
+        </div>
+        <div class="reset">
+            <a href="/reset">Reset Password for myself</a>
+        </div>
+    </div>
+</body>
+</html>

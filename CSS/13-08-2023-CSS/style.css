@@ -1,0 +1,39 @@
+
+
+#div1 {
+    height: 10vw;
+    width: 20vw;
+    background-color: brown;
+    position: static;
+    top:200px;
+    left: 40vw;
+}
+
+#div2 {
+    height: 10vw;
+    width: 20vw;
+    background-color: blue;
+    position: relative;
+    top:200px;
+    left: 40vw;
+}
+
+#div3 {
+    height: 10vw;
+    width: 20vw;
+    background-color: green;
+    position: fixed;
+    top:190px;
+    left: 40vw;
+}
+
+#div4 {
+    height: 10vw;
+    width: 20vw;
+    background-color: orange;
+    position: absolute;
+    top:200px;
+    left: 40vw;
+}
+
+
