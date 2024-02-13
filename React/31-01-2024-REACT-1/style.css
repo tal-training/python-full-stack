@@ -1,0 +1,15 @@
+.pictures{
+    display: flex;
+    gap:1em;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 128px
+}
+
+.border > *{
+    border: solid;
+    width: fit-content;
+    padding: 5px;
+}

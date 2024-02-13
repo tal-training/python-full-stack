@@ -1,0 +1,41 @@
+
+.pictures{
+    display: flex;
+    gap:1em;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 128px
+}
+
+.border > *{
+    border: solid;
+    width: fit-content;
+    padding: 5px;
+}
+
+.animals{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    padding: 5px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
