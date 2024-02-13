@@ -1,0 +1,19 @@
+.contacts {
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    gap: 1vw;
+    background-color: aquamarine;
+    width: 30%;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+img {
+    width: 200px;
+}

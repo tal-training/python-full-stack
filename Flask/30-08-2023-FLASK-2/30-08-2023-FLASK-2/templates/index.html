@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>This is my home today {{ date }}</h1>
+    <div class="contacts">
+        {% for c in contacts %}
+        <div class="contact">
+            <div class="">{{ c.name.capitalize() }}</div>
+            <div class="">{{ c.phone }}</div>
+            <div class="">{{ c.email }}</div>        
+        </div>
+        {% endfor %}
+    </div>
+    <p></p>
+    <div class="contacts">
+        {% for task in tasks %}
+        <div class="contact">
+            <div class="">{{ task.name.capitalize() }}</div>
+            <div class="">{{ task.description }}</div>
+            <div class="">{{ task.date }}</div>        
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
