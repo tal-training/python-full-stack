@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        gap: 5em;
+    }
+
+    .students {
+        display: flex;
+        gap: 5px;
+        width: fit-content;
+        flex-direction: column;
+    }
+    .student:nth-child(even){
+        background-color: silver;
+    }
+    .student:nth-child(odd){
+        background-color: cornflowerblue;
+    }
+    .courses > * {
+        width: 25vw;
+        display: grid;
+        grid-template-columns: 25% 2fr;
+    }
+    .course{
+        border: 1px solid black;
+
+    }
+    .right{
+        grid-column: 2;
+    }
+</style>
+<body>
+<div class="main">
+    {{ message }}
+    <div class="students">
+        <h1>Students</h1>
+        {% for student in students %}
+            <div class="student">
+                 {{student.name}}
+                 {{student.course}}
+            </div>
+        {% endfor %}    
+    </div>
+   
+    <div class="courses">
+        <h1>Courses</h1>
+        {% for course in courses %}
+            <div class="course">
+                 {{course.name}}
+                 <div class="right">
+                    <div style="display: flex; flex-direction: column;">
+                    {% for student in course.student_set.all %}
+                        <div class="student">
+                        {{student.name}}
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}    
+    </div>
+</div>
+</body>
+</html>
