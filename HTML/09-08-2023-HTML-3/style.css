@@ -1,0 +1,29 @@
+
+
+.row {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(95, 158, 160, 0.567);
+    margin-bottom: 10px;
+
+}
+
+.row2 {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.column {
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    background-color: rgba(222, 184, 135, 0.604);
+}
+

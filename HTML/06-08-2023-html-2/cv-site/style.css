@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+   
+}
+
+.back {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+.news {
+    border: 1px solid green;
+    display: inline;
+
+}
+
+.about {
+    border: 1px solid blue;
+    display: block;
+    width: 50vw;
+    word-wrap: normal;
+
+}
+
+.content {
+    margin-top: 1%;
+}

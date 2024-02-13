@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Bitcoin Rates</title>
+</head>
+<body>
+     <h1>Bitcoin Cats</h1>
+     <h4>{{ fact.fact }}</h4>
+     <div class="rates">
+          {% for rate in rates %}
+          <div class="" style="display:flex; gap:1em">
+               <div class="rate">{{ rate.bpi.USD.rate }}</div><div class="date">{{ rate.time.updated }}</div>
+          </div>
+          {% endfor %}
+     </div>
+</body>
+</html>

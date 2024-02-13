@@ -1,0 +1,24 @@
+* {
+    border: 1px solid black;
+}
+
+h2 {
+    color: green;
+}
+
+img {
+    width: 200px;
+}
+h1 {
+    color: red;
+}
+.tal {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+.general {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 3%;
+}

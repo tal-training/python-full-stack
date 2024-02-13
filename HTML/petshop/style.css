@@ -1,0 +1,54 @@
+.header{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.navbar{
+    margin-top: 2px;
+    padding: 5px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+.navlink{
+    display: inline;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: xx-large;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    border-bottom: 1px solid yellowgreen;
+
+} 
+
+img {
+    width: 25%;
+}
+
+.product {
+    display: inline;
+}
+
+.content {
+    margin-left: 2%;
+    padding-bottom: 2vh;
+    border-bottom: 10px solid yellowgreen;
+    margin-right: 1%;
+    margin-bottom: 10px;
+
+}
