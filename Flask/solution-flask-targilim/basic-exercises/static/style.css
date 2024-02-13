@@ -1,0 +1,24 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: antiquewhite;
+    padding: 5px;
+    gap: 1vh;
+}
+
+.task {
+    display: flex;
+    gap: 1rem;
+    background-color: beige;
+}
+
+.task > div {
+    width: 100vw;
+}
+
+.task:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}

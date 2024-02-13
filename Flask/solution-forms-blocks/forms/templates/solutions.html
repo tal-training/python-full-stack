@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Solutions to Forms and Blocks Exercises</title>
+</head>
+<body style="margin-bottom: 200px">
+     <h1>Exercise 1</h1>
+     <h4>Form to enter name and get the last name entered</h1>
+          <form action="/add/name">
+               <input type="text" name="username">
+               <input type="submit" value="Add">
+          </form>
+          <div class="result">{{ name }}</div>
+     <h1>Exercise 2</h1>
+     <h4>Form to enter name and store the last name entered</h1>
+          <form action="/add/name/save">
+               <input type="text" name="username">
+          </form>
+          <div class="result">{{ stored_name }}</div>
+     <h1>Exercise 3</h1>
+     <h4>Form to enter name and get all the last names entered</h1>     
+          <form action="/add/names">
+               <input type="text" placeholder="Enter Name" name="username">
+          </form>
+          <div style="display: flex;  flex-direction: column; gap:1vh">
+          {% for name in names %}
+               <div>{{ name }}</div>
+          {% endfor %}       
+          </div>
+     <h1>Exercise 4</h1>
+     <h4>Form to enter name and get all the last names entered with date of entry</h1>     
+          <form action="/add/info">
+               <input type="text" placeholder="Enter Name" name="username">
+          </form>
+          <div style="display: flex;  flex-direction: column; gap:1vh">
+               {% for item in info %}
+               <div style="display: flex;  gap:1vh">
+                    <div>{{ item.name }}</div>
+                    <div>{{ item.date }}</div>
+               </div>
+               {% endfor %}       
+          </div>
+     <h1>Exercise 6</h1>
+     <h4>Link to home page: <a href="/">Here</a></h1>     
+</body>
+</html>

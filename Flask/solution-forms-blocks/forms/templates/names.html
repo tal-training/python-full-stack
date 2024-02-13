@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+{% for item in info %}
+<div style="display: flex; flex-direction:column; gap:1vh">
+    <div>{{ item.name }}</div>
+</div>
+{% endfor %}
+{% endblock %}

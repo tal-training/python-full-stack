@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="/add/info/home">
+     <input type="text" placeholder="Enter Name" name="username">
+</form>
+<div style="display: flex;  flex-direction: column; gap:1vh">
+     {% for item in info %}
+     <div style="display: flex;  gap:1vh">
+          <div>{{ item.name }}</div>
+          <div>{{ item.date }}</div>
+     </div>
+     {% endfor %}       
+</div>
+{% endblock %}
+
