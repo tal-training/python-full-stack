@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+</head>
+<style>
+    .students, .courses{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .student{
+        color: red;
+    }
+
+    .course {
+        display: flex;
+        gap: 10px;
+        width: 25%;
+    }
+    .course > *{
+        width: 100%;
+    }
+</style>
+<body>
+    {{ message }}
+    <div class="students">
+        <h1>Students</h1>
+    </div>
+    <h1>Courses</h1>
+    <div class="courses">
+        <div class="course">
+            <div class="course"> Course Name</div>
+            <div class="num"> Number of Students</div>    
+            <div class="teacher"> Teacher</div>    
+        </div>
+        {% for course in courses %}
+        <div class="course">
+            <div class="course"> {{course.name}}</div>
+            <div class="num"> {{course.student_set.all|length}}</div>    
+            <div class="teacher"> {{course.teacher}}</div>    
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

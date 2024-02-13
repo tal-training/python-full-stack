@@ -1,0 +1,53 @@
+* {
+    /* border: 1px solid black; */
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    /* border-color: red; */
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+    width: fit-content;
+    gap: 2px;   
+    padding-bottom: 5px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.contact:hover {
+    background-color: bisque;
+}
+
+.contact > * {
+    width: 5em;
+}
+
+.contact:nth-child(odd){
+    background-color: aquamarine;
+}
+
+.contact:nth-child(odd):hover{
+    background-color: bisque;
+}
+
+.navbar{
+    margin-right: 1%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 13px;
+    font-family: 'VT323', sans-serif;
+    font-size: 48px;
+    background-color: black;
+    color: aquamarine
+}
