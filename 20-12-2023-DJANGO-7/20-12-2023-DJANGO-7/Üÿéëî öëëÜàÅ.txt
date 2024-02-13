@@ -1,0 +1,16 @@
+
+
+
+תרגיל פייתון:
+
+להפוך את: 
+
+[('username', 'tal'), ('password', 'tal')]
+
+ל:
+
+{"username":"tal", "password":"tal"}
+ 
+פתרון: 
+
+{t[0]:t[1] for t in d }

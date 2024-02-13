@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Update Contact</h1>
+<body>
+    <form action="/update" method="post" class="add">
+        Name: <input type="text" name="name" value='{{ name }}' autofocus>
+        Phone: <input type="tel" name="phone" value='{{ phone }}'>
+        <input type="submit" value="Update">
+     </form>   
+</body>
+</html>
+{% endblock %}

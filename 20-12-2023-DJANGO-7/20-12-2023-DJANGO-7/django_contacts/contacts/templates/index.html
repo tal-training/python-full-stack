@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="/static/style2.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=VT323">
+</head>
+<body>
+    {{ message }}
+    <div class="navbar">
+        My Contacts
+        <a href="/admin">Admin</a>
+    </div>
+ <!-- {{ contacts }} -->
+ <form action="/add" method="get" class="add">
+    {{ form.as_p }}
+    <input type="submit" value="Add">
+ </form>
+ <div class="contacts">
+ {% for contact in contacts %}
+ <div class="contact" onclick="window.open('/update?name={{ contact.name }}&phone={{ contact.phone }}', '_self')">
+    <div class="pic"><img src="https://api.minimalavatars.com/avatar/{{ contact.name }}/svg" alt="" style="width: 100%"></div><div class="name">{{ contact.name }}</div><div class="phone">{{ contact.phone }}</div><div class="delete"><a href="/delete?name={{ contact.name }}">&#215;</a></div>
+</div>
+ {% endfor %}
+</div>
+</body>
+</html>

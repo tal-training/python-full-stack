@@ -1,0 +1,103 @@
+* {
+    /* border: 1px solid black; */
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    /* border-color: red; */
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+    width: fit-content;
+    min-width: 100%;
+    gap: 2%;   
+    padding-bottom: 15px;
+    flex-wrap: wrap;    
+}
+
+form {
+    margin: 1%;
+    border: 0.5px solid gray;
+    min-width: max-content;
+    padding: 1%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+
+form > input[type='submit'] {
+    border-radius: 50px;
+    height: 3em;
+}
+
+
+
+.delete > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.delete {
+    position: relative;
+    top:-95%;
+    left: 98%;
+}
+
+
+.delete>a:hover{
+    background-color: red;
+}
+
+.contact {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-radius: 5px;
+    padding: 1%;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.contact:hover {
+    background-color: bisque;
+}
+
+.contact > * {
+    width: 5em;
+}
+
+.contact:nth-child(odd){
+    background-color: aquamarine;
+}
+
+.contact:nth-child(odd):hover{
+    background-color: bisque;
+}
+
+.navbar{
+    margin-right: 1%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 13px;
+    font-family: 'VT323', sans-serif;
+    font-size: 48px;
+    background-color: black;
+    color: aquamarine
+}
