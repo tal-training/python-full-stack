@@ -1,0 +1,10 @@
+company, product, price, type 
+UBUTU, standard, 100, dog_food
+AKABA, premium, 200, cat_food
+UBUTU, gold, 300, dog_food
+UBUTU, premium, 400, dog_food
+SANITOA, standard, 90, dog_food
+SANITOA, standard, 90, cat_food
+AKABA, other, 500, cat_toys
+AKABA, other, 600, dog_toys
+
