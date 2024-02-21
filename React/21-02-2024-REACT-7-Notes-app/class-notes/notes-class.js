@@ -6,11 +6,7 @@ function createNote(value, index){
     let noteElement=document.createElement("textarea");
     noteElement.value=value
     noteElement.onchange=(e)=>{
-        if (e.target.value==""){
-            notes.push(e.target.value)
-        } else {
-            notes[index]=e.target.value
-        }
+        notes[index]=e.target.value
         localStorage.setItem("notes", JSON.stringify(notes))
     }
     document.getElementById("main").appendChild(noteElement);
@@ -23,7 +19,8 @@ function showNotes(){
 }
 
 function addNewNote(){
-    createNote("")
+    notes.push("")
+    createNote("", notes.length-1)
 }
 
 showNotes()
