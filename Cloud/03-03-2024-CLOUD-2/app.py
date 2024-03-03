@@ -32,7 +32,6 @@ def chat():
 def api_chat():
     if "username" not in session:
         session["username"]=f"user{random.randrange(1,100)}"
-    #return f'{session["username"]} says {request.args["message"]}'
     save(user=session["username"], message=request.args["message"])
     return json.dumps([{"username":i[0], "message":i[1]} for i in load()])
 
