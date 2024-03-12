@@ -7,13 +7,24 @@
 
 ### Prompt: "what is programming?"
 
-Programming is the process of creating sets of instructions that tell a computer how to perform specific tasks. These instructions are typically written in a programming language, which consists of syntax and rules that dictate how the code should be structured. Programmers use programming languages to write code that can manipulate data, perform calculations, control hardware, interact with users, and accomplish a wide range of other tasks.
+Programming is the process of creating sets of instructions that tell a computer how to perform specific tasks. 
+
+These instructions are typically written in a programming language, which consists of syntax and rules that dictate how the code should be structured.
+
+Programmers use programming languages to write code that can manipulate data, perform calculations, control hardware, interact with users, and accomplish a wide range of other tasks.
 
 Programming involves several key steps:
 
 1. **Problem Solving:** Identifying the problem that needs to be solved and determining the best approach to solve it using a computer program.
+   <details>
+   <summary>Exercise</summary>
+   Your digital photo collection has grown significantly over time, but it's become disorganized and difficult to search through. The photos are scattered across different devices, cloud services, and local folders without any consistent naming convention or categorization system. This makes finding specific images challenging and time-consuming. Your goal is to develop a solution that organizes your digital photos effectively, allowing you to quickly locate and enjoy them whenever needed.
+   </details>
+<br>
 
 2. **Algorithm Design:** Developing a step-by-step plan, known as an algorithm, to solve the problem. This involves breaking down the problem into smaller, more manageable tasks.
+<a href="exercises/algo-exercise.md">aaa</a>
+<script>alert(1)</script>
 
 3. **Writing Code:** Translating the algorithm into a programming language by writing code. This involves using the syntax and features of the chosen programming language to implement the algorithm.
 

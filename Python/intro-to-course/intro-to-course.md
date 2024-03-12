@@ -20,7 +20,7 @@ Python Full Stack is a course given in the John Bryce Technical College. The cou
 + The course includes quizzes, class exercises and homework. 
 + In addition to the above, a student who expects to land a job should develop at least 5 independent projects. 
 
-## Course Agenda:
+## Course Agenda
 
 
 - ### Introduction to Programming
@@ -70,6 +70,13 @@ Python Full Stack is a course given in the John Bryce Technical College. The cou
 
 - ### Advanced Topics
 
- 
+## Tips for Success
+
++ Practice everything
++ Learn by doing
++ Ask questions
++ Use the recommended tools
++ Work with others
++ Don't give up
 
 
