@@ -1,6 +1,6 @@
 ### Links to students pages:
 
-[](url)https://sunlaria.github.io/
+https://sunlaria.github.io/
 
 https://alijanbeshimow.github.io/
 
