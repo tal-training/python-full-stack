@@ -1,4 +1,4 @@
-### Links to students pages:
+### Links to student pages:
 
 https://sunlaria.github.io/
 
