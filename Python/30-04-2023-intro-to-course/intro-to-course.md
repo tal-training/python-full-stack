@@ -7,113 +7,55 @@ Welcome to the Python Full Stack course!
 ## Course Agenda:
 
 
-
 - ### Introduction to Programming
 
     What is Programming?
 
+    Programmer Toolbox
+
     What is an algorithm?
 
-    #### Programming in Python
+        
+
+- ### Programming in Python
 
     The Core Programming Techniques
 
-Basic browser technologies (HTML, CSS, Javascript)
+    The Standard Library
+    
+    Simple Terminal Applications 
+    
+    Data Analysis 
 
-Behind the scenes of Wibb apps in Python
+- ### Exam
 
-How to develop a server or backend side with Django and Flask
+- ### Advanced Python
 
-The database SQL
+    Modules
 
-Reactions
+    Files
 
-Caliphate of javascript
+    Object Oriented Programming (OOP)
 
-Cloud Cloud Cloud
+    Testing
 
-How to publish our project online (in the cloud)
-
-
-## Concepts:
-
-#### Interpreter
-
+    Popular Packages and Libraries
 
 
+- ### Project 1
 
-Introduction to programming:
+- ### Full Stack Web 
 
+    Web Technologies 
 
+    SQL Databases
 
-Installation of the development environment
+    Backend and Frontend Frameworks
 
-Python himself.
+- ### Project 2
 
-IDE (Integrated Development Environment)
+- ### Advanced Topics
 
-VS Code (Visual Studio Code)
-
-How do you check that Python is installed?
-
-Starting
-
-Order from the terminal (CLI Command Line)
+ 
 
 
-
-
-
-
-
-
-
-How do you write Python after installation?
-
-Interactive mode
-
-Mod Sceptic (the code is stored in the file, and stimulates the file)
-
-
-
-Functions in Python:
-
-Exit ()
-
-Print()
-
-
-
-What did we do?
-
-Installation
-
-We wrote code.
-
-We ran him.
-
-
-
-Why is Paul Stuck?
-
-Front end
-
-Back to the end
-
-
-
-
-
-Introduction to programming - booklet
-
-
-
-Changing
-
-Access to Memory
-
-Types of variables:
-
-Integer
-
-Further strings
