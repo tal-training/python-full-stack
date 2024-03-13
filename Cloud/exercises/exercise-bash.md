@@ -1,5 +1,9 @@
  Here are some common Bash commands with brief explanations, demonstrations, and exercises for beginners:
 
+0. To see your Linux distribution:
+
+`uname -a`
+
 1. `cd`: Change Directory
 
 Demonstration:
