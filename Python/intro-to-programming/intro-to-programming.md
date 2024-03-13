@@ -23,8 +23,8 @@ Programming involves several key steps:
 <br>
 
 2. **Algorithm Design:** Developing a step-by-step plan, known as an algorithm, to solve the problem. This involves breaking down the problem into smaller, more manageable tasks.
-<a href="exercises/algo-exercise.md">aaa</a>
-<script>alert(1)</script>
+
+   <a href="exercises/algo-exercise.md">Exercise</a>
 
 3. **Writing Code:** Translating the algorithm into a programming language by writing code. This involves using the syntax and features of the chosen programming language to implement the algorithm.
 
@@ -152,3 +152,33 @@ Exercise: Counting Coins
    - They can also modify the algorithm to include additional features, such as handling different currencies or sorting the coins into separate denominations.
 
 This exercise provides a practical and hands-on opportunity for participants to develop a simple algorithm for counting coins. It helps them practice problem-solving, logical thinking, and algorithmic reasoning in a context that is familiar and relatable.
+
+### Prompt: "describe a typical workday of a programmer to non-programmers"
+
+Sure! Imagine you're a programmer, here's what your typical workday might look like:
+
+**Morning:**
+1. **Getting Started:** You arrive at the office, grab a cup of coffee, and settle into your workspace. 
+2. **Reviewing Tasks:** You check your email and project management tools to see if there are any updates or new tasks assigned to you.
+3. **Planning:** You review your to-do list and prioritize your tasks for the day. This might involve planning out what parts of a project you'll work on or what bugs you need to fix.
+4. **Coding:** Once you have a plan in place, you dive into writing code. This could involve creating new features, fixing bugs, or improving existing code.
+
+**Midday:**
+
+5. **Meetings:** You might have meetings with your team to discuss progress, brainstorm solutions to problems, or plan upcoming work.
+6. **Lunch Break:** Time to take a break and recharge! You might eat lunch with coworkers, go for a walk, or just relax for a bit.
+
+**Afternoon:**
+
+7. **More Coding:** After lunch, you get back to coding. You might be working on the same task as in the morning or switching to something new.
+8. **Testing:** As you write code, you periodically test it to make sure it's working correctly. This could involve running automated tests or manually testing different scenarios.
+9. **Collaboration:** You might collaborate with other developers on your team, asking for help when you're stuck or offering assistance to others.
+10. **Documentation:** You document your code to make it easier for other developers to understand and maintain in the future.
+
+**Evening:**
+
+11. **Wrap-up:** As the end of the day approaches, you finish up any tasks you were working on and make sure your code is in a good state.
+12. **Reflection:** Before leaving, you take a few minutes to reflect on what you accomplished during the day and what you need to tackle next.
+13. **Shutting Down:** You shut down your computer, gather your things, and head home, knowing you've made progress towards your team's goals.
+
+Overall, being a programmer involves a mix of creativity, problem-solving, collaboration, and attention to detail, all aimed at building and improving software to meet the needs of users and businesses.
