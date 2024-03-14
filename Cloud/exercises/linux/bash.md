@@ -1,4 +1,6 @@
- Here are some common Bash commands with brief explanations, demonstrations, and exercises for beginners:
+### Common BASH Commands
+
+Here are some common Bash commands with brief explanations, demonstrations, and exercises for beginners:
 
 0. To see your Linux distribution:
 
@@ -120,9 +122,11 @@ Exercise: Look up the manual page for a few different commands, such as `cd`, `m
 
 These are just a few basic Bash commands to get you started. There are many more commands available, and you can continue exploring and learning as you become more comfortable with the command line interface.
 
+### Installation Commands
+
  Here are some basic commands for working with packages on Debian-based distributions (such as Ubuntu) using the `apt` command, and on Red Hat-based distributions (such as CentOS) using the `yum` command:
 
-Apt Commands:
+Apt Commands (for Debian distributions like Ubuntu):
 
 1. `apt update`: Update the package index
 	* Example: `sudo apt update`
@@ -141,7 +145,7 @@ Apt Commands:
 8. `apt policy <package>`: Show the installation policy for a package
 	* Example: `sudo apt policy firefox`
 
-Yum Commands:
+Yum Commands (for Red-Hat distributions like Amazon AMI):
 
 1. `yum update`: Update the package index
 	* Example: `sudo yum update`

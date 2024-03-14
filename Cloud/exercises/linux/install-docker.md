@@ -24,8 +24,9 @@ sudo systemctl enable docker
 
 Step 3: Pull a Container Image from Docker Hub
 
-1. Use the Docker CLI to pull a container image from Docker Hub. Use an image that you have created in previous lessons. 
-For example, to pull the latest version of the nginx image, use the following command:
+1. Use the Docker CLI to pull a container image from Docker Hub. 
+Use an image that you have created in previous lessons. 
+If you don't hav an image on Docker Hub, use as an example the latest version of the nginx image, use the following command:
 ```
 docker pull nginx
 ```
