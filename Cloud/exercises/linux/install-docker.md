@@ -1,3 +1,5 @@
+### Installing Docker inside Linux
+
 Here's a step-by-step guide for beginners on how to install Docker on an EC2 Linux instance and run a container from Docker Hub
 Step 1: Launch an EC2 Instance
 
